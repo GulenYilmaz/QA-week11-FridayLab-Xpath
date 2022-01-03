@@ -7,7 +7,7 @@ const driver = new Builder().withCapabilities(Capabilities.chrome()).build()
 test("Google", async () => {
     await driver.get('https://www.google.com/')
     
-    let searchSelector = /* The search bar selector in CSS */
+    let searchSelector = await driver.findElement(By.xpath('//input[@title="Search"]'))
 
     let searchBarElement = await driver.findElement(By.css(searchSelector))
 
