@@ -27,3 +27,24 @@ test("GitHub", async () => {
     
     await driver.quit()
 })
+
+// Download the lab materials from Frodo
+
+// Run npm i in that directory
+
+// Open the google.test.js file for a quick refresher (find the selector for line 10)
+
+// Open the github.test.js file from that folder
+
+// Open up GitHub so that you can use the inspector
+
+// Find CSS or XPath selectors for the elements you’ll need to complete this flow: open the user dropdown menu from the top right, visit your profile, click to edit your profile, add something to your bio, and save the change
+
+// In your test file, write a test that completes that flow
+
+// Come up with another flow and write a test for that flow (Challenge: only use XPath selectors)
+
+// Practice with XPath
+// If you’d like to continue practicing with XPath, here’s a little game that is incredibly helpful!
+
+// Save your work to GitHub.
